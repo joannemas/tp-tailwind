@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-gray-300">
+    <div class="dark:bg-slate-900 dark:text-white pb-8 text-sm">
+        <div class="w-round flex justify-center py-8">
+            <button id="theme-toggle" class="p-2 rounded-round text-white bg-slate-900 dark:text-slate-900 dark:bg-white">
+                Toggle theme
+            </button>
+        </div>
+
+        <header class="flex items-center justify-around xl:w-2/3 m-auto">
+            <div class="rounded-round w-fit p-2 m-2 bg-white dark:bg-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-14 h-14 p-2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                </svg>
+            </div>
+
+            <div class="flex items-center rounded-round w-fit px-4 py-2 m-2 bg-white dark:bg-secondary">
+                <p class="font-bold">Take the Quiz</p>
+                <div class="rounded-round w-fit p-2 m-2 bg-gray-950 dark:bg-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6 stroke-white dark:stroke-black">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="flex">
+                <img class="w-14 h-14 rounded-round object-cover"
+                    src="https://images.unsplash.com/photo-1700344207586-7374ef84638a?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2N3x8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </div>
+        </header>
+
+        <section class="xl:w-2/3 m-auto xl:text-center">
+            <div class="mx-auto w-fit my-10 max-md:m-12">
+                <p class="text-title font-main font-light leading-title mx-auto" >
+                    Simplify your health
+                    <svg class="h-14 w-14 ml-2 rotate-45 inline" viewBox="0 0 35.4113 67.2004" fill="none">
+                        <rect x="0.255737" y="0.52829" width="35.4113" height="67.2004" rx="17.7057" fill="#D9EAFD" />
+                    </svg>
+                    and your wellbeing.
+                    <svg class="h-14 w-14 ml-2 inline" viewBox="0 0 70.7011 70.7011" fill="none">
+                        <rect x="0.61084" y="30.7361" width="70.7011" height="9.79788" rx="4.89894" fill="#FEF189" />
+                        <rect x="40.8604" y="0.533691" width="70.7011" height="9.79788" rx="4.89894" transform="rotate(90 40.8604 0.533691)" fill="#FEF189" />
+                        <rect x="15.977" y="15.8999" width="39.9687" height="39.9687" rx="19.9844" fill="#FEF189" />
+                    </svg>
+                </p>
+            </div>
+
+        </section>
+
+        <section class="shadow-lg w-fit m-auto rounded-2xl bg-white dark:bg-slate-800 max-sm:m-10">
+            <div class="flex items-center justify-between mx-4">
+                <div class="flex items-center">
+                    <p class="text-sm rounded-round w-fit px-4 py-2 m-2 border ">About <sup>01</sup></p>
+                    <div class="rounded-round w-fit border p-4 m-2 bg-white dark:bg-slate-800 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 stroke-black dark:stroke-white">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                        </svg>
+                    </div>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="w-12 h-12 mt-4 rounded-round  border border-black stroke-black dark:stroke-white dark:border-white p-2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                </svg>
+
+            </div>
+
+            <p class="mx-4 my-8  mr-8">Receive daily packs personalized to your <span class="font-bold">unique health
+                    needs.</span></p>
+            
+            <div class="relative">
+                <img class="rounded-b-2xl"
+                src="https://plus.unsplash.com/premium_photo-1700064757532-49509cf06bca?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfHhqUFI0aGxrQkdBfHxlbnwwfHx8fHw%3D%3D"
+                alt="">
+
+                <div class="flex bg-white w-fit rounded-round p-2 absolute bottom-0 m-4">
+                    <div class="rounded-round w-fit border border-black p-2 m-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0" />
+                    </svg>                
+                    </div>
+        
+                    <div class="rounded-round w-fit border border-black p-2 m-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 24 24" class="w-6 h-6">
+                            <path d="M7.25 10H.75A.75.75 0 0 1 0 9.25v-6.5a.75.75 0 0 1 1.5 0V8.5h5.75a.75.75 0 0 1 0 1.5zM23.25 22a.75.75 0 0 1-.75-.75V15.5h-5.75a.75.75 0 0 1 0-1.5h6.5a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-.75.75z"/><path d="M12 24C5.383 24 0 18.617 0 12a.75.75 0 0 1 1.5 0c0 5.79 4.71 10.5 10.5 10.5 4.938 0 9.363-3.336 10.522-7.934a.75.75 0 0 1 1.455.368C22.652 20.187 17.615 24 12 24zM23.25 12.75a.75.75 0 0 1-.75-.75c0-5.79-4.71-10.5-10.5-10.5-4.938 0-9.363 3.336-10.522 7.934a.752.752 0 0 1-1.456-.368C1.348 3.813 6.385 0 12 0c6.617 0 12 5.383 12 12a.75.75 0 0 1-.75.75z"/>
+                        </svg>
+                    </div>
+        
+                    <div class="rounded-round w-fit border border-black p-2 m-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 24 24" class="w-6 h-6">
+                            <path d="M12 24a.75.75 0 0 1-.75-.75v-5.094a.75.75 0 0 1 1.5 0v5.094A.75.75 0 0 1 12 24z"/><path d="M18.345 20.087a.768.768 0 0 1-.27-.05 16.863 16.863 0 0 0-12.151 0 .749.749 0 0 1-.959-.994l1.137-2.66a.229.229 0 0 0-.086-.283l-4.669-2.978a.75.75 0 0 1 .067-1.303l1.194-.599-1.483-2.228a.752.752 0 0 1 .023-.864.754.754 0 0 1 .821-.269l2.332.714.689-1.322a.753.753 0 0 1 1.082-.277l1.488.994-.693-4.16a.751.751 0 0 1 1.127-.766l1.713 1.03L11.315.446c.24-.542 1.131-.542 1.371 0l1.608 3.626 1.713-1.03a.75.75 0 0 1 1.127.765l-.692 4.161 1.488-.994a.748.748 0 0 1 1.082.277l.688 1.321 2.332-.714a.752.752 0 0 1 .821.269c.189.254.198.6.023.864l-1.482 2.229 1.194.599a.749.749 0 0 1 .067 1.303L17.986 16.1a.228.228 0 0 0-.087.283l1.137 2.66a.748.748 0 0 1-.691 1.044zm-15.077-7.52 3.555 2.267c.717.457.994 1.356.659 2.138L7 18.099a18.346 18.346 0 0 1 10 0l-.481-1.126a1.721 1.721 0 0 1 .66-2.138l3.554-2.267-.771-.386a.749.749 0 0 1-.288-1.086l.791-1.188-.923.283a.752.752 0 0 1-.885-.371l-.59-1.133-1.296.866a1.238 1.238 0 0 1-1.908-1.234l.524-3.153-1.048.63a.749.749 0 0 1-1.072-.338L12 2.6l-1.267 2.856a.75.75 0 0 1-1.072.338l-1.048-.63.524 3.153a1.239 1.239 0 0 1-1.908 1.235l-1.295-.866-.59 1.133a.754.754 0 0 1-.885.371l-.923-.283.791 1.188a.749.749 0 0 1-.288 1.086l-.771.386z"/>
+                        </svg>
+                    </div>
+        
+                </div>
+            </div>
+
+
+        </section>
+
+        <div class="flex items-center justify-around rounded-round w-1/2 px-4 py-2 mt-6 m-auto bg-gray-900 dark:bg-secondary max-sm:w-3/4">
+            <p class="text-white font-body">Unlock <span class="font-bold">personalized</span> plan.</p>
+            <div class="rounded-round w-fit p-2 m-2">
+                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 stroke-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                </svg>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const btn = document.getElementById("theme-toggle");
+        btn.addEventListener("click", function () {
+            document.body.classList.toggle("dark");
+        });
+    </script>
+</body>
+
+</html>
