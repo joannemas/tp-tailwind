@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dark:bg-slate-900 dark:text-white pb-8 text-sm">
+        <div class="w-full flex justify-center py-8">
+            <button id="theme-toggle" class="p-2 rounded-full text-white bg-slate-900 dark:text-slate-900 dark:bg-white">
+                Toggle theme
+            </button>
+        </div>
+
+        <section class="p-8 shadow-md m-auto bg-gray-50 dark:bg-slate-800 w-1/2">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center">
+                    <div class="rounded-full w-fit p-2 m-2 bg-gray-300 dark:bg-gray-600">
+                        <img class="w-6 h-6" src="https://cdn3.iconfinder.com/data/icons/font-awesome-regular-1/512/calendar-minus-512.png">
+                    </div>
+                    <h2 class="font-bold">My schedule</h2>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 stroke-pink-200 dark:stroke-pink-500">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                </svg>
+            </div>
+            
+            <div class="border-gray-400 border rounded-2xl p-4 bg-white dark:bg-slate-800">
+                <div class="flex justify-between">
+                    <div>
+                        <p>Tues, Jan 17 2023</p>
+                        <p class="font-bold">Shift name</p>
+                    </div>
+                    <p class="p-4 bg-pink-200 dark:bg-pink-500 rounded-full w-fit">In 45 mins</p>
+                </div>
+
+                <div class="border-gray-300 border rounded-2xl p-2 mt-4 bg-gray-100 dark:bg-slate-800">
+                    <div class="flex w-2/3 mt-4 justify-between">
+                        <p>7:00- 10:00</p>
+                        <p>Drive Thru</p>
+                    </div>
+                    <div class="flex w-2/3 mt-2 justify-between">
+                        <p>7:00- 10:00</p>
+                        <p>Drive Thru</p>
+                    </div>
+                    <div class="flex w-2/3 mt-2 justify-between">
+                        <p>7:00- 10:00</p>
+                        <p>Drive Thru</p>
+                    </div>
+                    <div class="flex w-2/3 mt-2 justify-between">
+                        <p>7:00- 10:00</p>
+                        <p>Drive Thru</p>
+                    </div>
+                    <div class="flex w-2/3 mt-2 justify-between">
+                        <p>7:00- 10:00</p>
+                        <p>Drive Thru</p>
+                    </div>
+
+                    <p class="my-4 text-gray-500 dark:text-white">Shift disclaimer lorem ipsum dolor.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script>
+        const btn = document.getElementById("theme-toggle");
+        btn.addEventListener("click", function () {
+            document.body.classList.toggle("dark");
+        });
+    </script>
+</body>
+</html>
